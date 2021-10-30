@@ -7,6 +7,10 @@ class Base64Lib {
         fun encode(value: String): String {
             return Base64.encodeToString(value.toByteArray(), Base64.NO_WRAP)
         }
+
+        fun decode(value: String): ByteArray {
+            return Base64.decode(value, Base64.NO_WRAP)
+        }
     }
 }
 
