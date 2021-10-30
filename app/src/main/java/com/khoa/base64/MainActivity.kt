@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         Base64Lib.encode("")
+        Base64Lib.decode("")
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
