@@ -3,6 +3,6 @@
 
 ### Usage
 
-``kt
+```kt
   Base64Lib.encode("<value>")
-``
+```
